@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт-визитка</title>
+  <link href="style.css" rel="stylesheet"> <!--Google не рекомендует использовать type="text/css"-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+  <!--<link rel="shortcut icon" href="../icons/1.png" type="image/png">добавить иконку в адресную строку-->
+</head>
+
+<body>
+
+  <header class="headernav">
+
+    <nav class="navigation">
+      <a href="#fact_about" class="headerlink">Факты обо мне</a>
+      <a href="#history" class="headerlink">Как я стал разработчиком</a>
+      <a href="#contacts" class="headerlink">Контакты</a>
+    </nav>
+
+  </header>
+    
+  <main class="main">
+    <section class="sect1"> 
+      <h1 class="title">Александр Гайдуков - <br>Ваш frontend-разработчик</h1>
+
+      <div class="img-wrapper">
+        <img class="img" src="images/XuRuaVHEKEA.jpg" width="280" height="400" alt="My photo">
+      </div>
+
+    </section>
+
+    <div class="progress">
+      <p class="myprogress">Мой прогресс в обучении %</p>
+      <progress value="5" max="100">Мой прогресс 5%</progress>
+    </div>
+
+    <section class="sect2">
+            
+      <h2 class="about" id="fact_about">Факты обо мне</h2>
+      <p class="paragraph">Мне 31 год, живу в городе Мытищи. Несмотря на то, 
+      что пошел четвертый десяток, я решил сменить вид<br> деятельности и учусь 
+      на курсах по разработке пользовательской части интернет сайтов.</p>
+        
+      <div class="skill">
+        <ul class="list">
+          <li>знаю <em>HTML5</em></li>
+          <li>изучаю <em>CSS3</em></li>
+          <li>предполагаю, что <em>JavaScript</em> мне по силам</li>
+          <li>имею <em>желание</em></li>
+          <li>изыскиваю <em>возможности</em></li>
+        </ul>
+      </div>
+            
+    </section>
+
+    <section class="sect3">
+            
+      <h2 class="myhystory" id="history">Как я стал разработчиком</h2>
+        <ul class="list">
+          <li>декабрь 2019 года - задумался...</li>
+          <li>январь-декабрь 2020 года - думал...</li>
+          <li>декабрь 2020 года - определился...</li>
+          <li>18 января 2021 года приступил к изучению курса</li>
+        </ul>
+            
+    </section>
+
+        <section class="sect4">
+            <h2 class="mycontacts" id="contacts">Контакты</h2>
+                <address>МО, г. Мытищи, улица им. Уборки снега, 14-77</address>
+                <a href="tel:+9998887766" class="tel">телефон: +9998887766</a>
+                <a href="mailto:gaidukov_alekc@mail.ru" class="mail">mail: gaidukov_alekc@mail.ru</a>
+        </section>
+
+  </main>
+
+  <footer>
+    GAIDUKOV_ALEKC 2020
+  </footer>
+
+  </body>
+</html>

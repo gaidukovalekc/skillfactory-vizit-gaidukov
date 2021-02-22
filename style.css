@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  color: gray;
+  text-shadow: 1px 1px 1px rgb(63, 55, 55), 0 0 1em rgb(255, 255, 255);
+} 
+
+address {
+  margin: 15px 0;
+  text-decoration: underline;
+}
+
+body{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+em {
+  color: chocolate;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: gray;
+  color: chocolate;
+  font-family: 'Bad Script', cursive;
+  height: 55px;
+  padding: 50px 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(63, 55, 55), 0 0 1em rgb(255, 255, 255);
+}
+
+.headernav {
+  border-bottom: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+}
+
+.headerlink {
+  color: chocolate;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: .5s;
+}
+
+.headerlink:hover {
+  color: darkblue;
+}
+
+.img {
+  border: chocolate solid 1px;
+  border-radius: 5px;
+}
+
+.img-wrapper {
+  background-color: gainsboro;
+  margin: 20px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.list {
+  list-style-type: square;
+}
+
+.mycontacts {
+  color: gray;
+  margin: 15px 0;
+  text-shadow: 1px 1px 1px rgb(63, 55, 55), 0 0 1em rgb(255, 255, 255);
+}
+
+.myhystory {
+  color: gray;
+  margin: 15px 0;
+  text-shadow: 1px 1px 1px rgb(63, 55, 55), 0 0 1em rgb(255, 255, 255);
+}
+
+.myprogress {
+  color: gray;
+  font-size: 1.7em;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px rgb(63, 55, 55), 0 0 1em rgb(255, 255, 255);
+  
+}
+
+.paragraph {
+  padding: 12px 0;
+}
+
+progress {
+  background-color: #f7f4f4;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 18px;
+  margin: 15px 0;
+}
+
+.progress {
+  text-align: center;
+}
+
+.sect1 {
+  border-left: 12px solid chocolate;
+  padding: 30px 45px;
+}
+
+.sect2 {
+  border-left: 12px solid chocolate;
+  color: rgb(22, 22, 24);
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 30px 45px;
+}
+
+.sect3 {
+  border-left: 12px solid chocolate;
+  color: rgb(22, 22, 24);
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 30px 45px;
+}
+
+.sect4 {
+  border-left: 12px solid chocolate;
+  color: rgb(22, 22, 24);
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 30px 45px;
+}
+
+.tel {
+  padding-right: 50px;
+}
+
+.tel:hover,.mail:hover {
+  color: rgb(252, 6, 6);
+}
+
+.title {
+  color: gray;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(63, 55, 55), 0 0 1em rgb(255, 255, 255);
+}
